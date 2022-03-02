@@ -1,0 +1,59 @@
+body {
+    width: 1000px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium';
+}
+
+header {
+    height: 10rem;
+    margin: 10px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    margin: 10px;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+aside a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: yellow;
+}
+
+aside a:hover {
+    background: yellow;
+    color: red;
+}
+
+section {
+    float: right;
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+article {
+    margin: 10px;
+}
+
+article p {
+    float: left;
+    width: 65%;
+    text-align: justify;
+}
+
+article img {
+    float: right;
+    width: 30%;
+    transition: transform .2s;
+}
+
+article img:hover {
+    transform: scale(1.2);
+}
